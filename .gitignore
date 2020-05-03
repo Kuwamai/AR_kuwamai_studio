@@ -58,3 +58,15 @@ sysinfo.txt
 # Crashlytics generated file
 crashlytics-build.properties
 
+# VSCode
+.vscode
+
+# Assts
+/Assets/ZED
+/Assets/ZED.meta
+/Assets/SteamVR
+/Assets/SteamVR.meta
+/Assets/SteamVR_Input
+/Assets/SteamVR_Input.meta
+/Assets/SteamVR_Resources
+/Assets/SteamVR_Resources.meta
