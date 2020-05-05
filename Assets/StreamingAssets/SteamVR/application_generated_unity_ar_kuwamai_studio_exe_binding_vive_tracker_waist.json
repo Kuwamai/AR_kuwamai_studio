@@ -1,0 +1,78 @@
+{
+   "action_manifest_version" : 0,
+   "alias_info" : {},
+   "app_key" : "application.generated.unity.ar_kuwamai_studio.exe",
+   "bindings" : {
+      "/actions/zed-default" : {
+         "chords" : [ {}, {} ],
+         "poses" : [
+            {
+               "output" : "/actions/zed-default/in/pose",
+               "path" : "/user/foot/right/pose/raw"
+            },
+            {
+               "output" : "/actions/zed-default/in/pose",
+               "path" : "/user/foot/left/pose/raw"
+            },
+            {
+               "output" : "none",
+               "path" : "/user/hand/left/pose/base"
+            },
+            {
+               "output" : "none",
+               "path" : "/user/hand/right/pose/base"
+            },
+            {
+               "output" : "/actions/zed-default/in/pose",
+               "path" : "/user/hand/left/pose/tip"
+            },
+            {
+               "output" : "/actions/zed-default/in/pose",
+               "path" : "/user/hand/right/pose/tip"
+            },
+            {
+               "output" : "/actions/zed-default/in/pose",
+               "path" : "/user/hand/right/pose/raw"
+            },
+            {
+               "output" : "/actions/zed-default/in/pose",
+               "path" : "/user/hand/left/pose/raw"
+            },
+            {
+               "output" : "/actions/zed-default/in/pose",
+               "path" : "/devices/htc/vive_trackerLHR-6BDDF7C6/pose/raw"
+            },
+            {
+               "output" : "/actions/zed-default/in/pose",
+               "path" : "/user/waist/pose/raw"
+            }
+         ],
+         "sources" : [
+            {
+               "inputs" : {
+                  "click" : {
+                     "output" : "/actions/zed-default/in/click"
+                  }
+               },
+               "mode" : "trigger",
+               "path" : "/user/hand/left/input/trigger"
+            },
+            {
+               "inputs" : {
+                  "click" : {
+                     "output" : "/actions/zed-default/in/click"
+                  }
+               },
+               "mode" : "trigger",
+               "path" : "/user/hand/right/input/trigger"
+            }
+         ]
+      }
+   },
+   "category" : "steamvr_input",
+   "controller_type" : "vive_tracker_waist",
+   "description" : "",
+   "name" : "Vive Tracker on Waist用に保存されたAR_kuwamai_studio [Testing]設定",
+   "options" : {},
+   "simulated_actions" : []
+}
