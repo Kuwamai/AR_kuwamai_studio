@@ -17,6 +17,8 @@ public class Shoot : MonoBehaviour {
 
             // 弾丸の複製
             GameObject bullets = Instantiate(bullet) as GameObject;
+            Renderer coloring = bullets.GetComponent<Renderer>();
+            coloring.material.color = new Color(Random.value, Random.value, Random.value, 1.0f);
 
             Vector3 force;
 
