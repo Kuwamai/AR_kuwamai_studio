@@ -5,31 +5,22 @@ using Valve.VR;
 
 public class Shoot : MonoBehaviour {
 
-    // bullet prefab
     public GameObject bullet;
-
-    // 弾丸発射点
     public Transform muzzle;
-
-    // 弾丸の速度
     public float speed = 1000;
 
-    // Use this for initialization
-    void Start () {
+    public SteamVR_Input_Sources hand;
+    public SteamVR_Action_Boolean clickAction;
 
-    }
-
-    // Update is called once per frame
     void Update () {
-        // z キーが押された時
-        if (Input.GetKeyDown(KeyCode.Z)){
+        if (clickAction.GetState(hand)){
 
             // 弾丸の複製
             GameObject bullets = Instantiate(bullet) as GameObject;
 
             Vector3 force;
 
-            force = this.gameObject.transform.forward * speed;
+            force = muzzle.gameObject.transform.forward * speed;
 
             // Rigidbodyに力を加えて発射
             bullets.GetComponent<Rigidbody>().AddForce(force);
