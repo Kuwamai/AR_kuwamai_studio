@@ -62,15 +62,7 @@ crashlytics-build.properties
 .vscode
 
 # Assts
-/Assets/ZED
-/Assets/ZED.meta
-/Assets/SteamVR
-/Assets/SteamVR.meta
-/Assets/SteamVR_Input
-/Assets/SteamVR_Input.meta
-/Assets/SteamVR_Resources
-/Assets/SteamVR_Resources.meta
-/Assets/TextMesh Pro
-/Assets/TextMesh Pro.meta
-/Assets/UnityCapture
-/Assets/UnityCapture.meta
+/Assets/ZED*
+/Assets/SteamVR*
+/Assets/TextMesh Pro*
+/Assets/UnityCapture*
