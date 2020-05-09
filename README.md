@@ -2,7 +2,7 @@
 ## Description
 ZED miniを使用してARっぽい動画を撮りました。
 
-* [【100人記念】YouTuberっぽいことをする - YouTube](https://youtu.be/5Js24Chq72g)
+* [【100人記念】Vtuberっぽいことしてはしゃぐ - YouTube](https://youtu.be/5Js24Chq72g)
 
 ## Requirements
 * HTC VIVE
